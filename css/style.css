@@ -34,7 +34,7 @@ a:hover {
 .feature {
     grid-area: feat;
 }
-.post {
+.content {
     grid-area: main;
 }
 .sidebar {
@@ -42,6 +42,9 @@ a:hover {
 }
 .footer {
     grid-area: ft;
+}
+.box {
+    padding: 1.5em 2em;
 }
 /*computer screen grid*/
 @media (min-width: 800px) {
