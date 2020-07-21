@@ -44,7 +44,7 @@ a:hover {
     grid-area: ft;
 }
 .box {
-    padding: 1.5em 2em;
+    padding: 2em 4em;
 }
 /*computer screen grid*/
 @media (min-width: 800px) {
