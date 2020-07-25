@@ -39,7 +39,6 @@ a:hover {
 }
 /*post*/
 .post {
-    border: .2em outset #9ebbca; 
     border-radius: 10px; 
     box-shadow: 8px 15px 10px #aaa;
 }
