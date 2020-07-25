@@ -37,6 +37,12 @@ a:hover {
 .content {
     grid-area: main;
 }
+/*post*/
+.post {
+    border: .2em outset #9ebbca; 
+    border-radius: 10px; 
+    box-shadow: 8px 15px 10px #aaa;
+}
 .sidebar {
     grid-area: sd;
 }
@@ -45,6 +51,7 @@ a:hover {
 }
 .box {
     padding: 2em 4em;
+    margin: 2em;
 }
 /*computer screen grid*/
 @media (min-width: 800px) {
