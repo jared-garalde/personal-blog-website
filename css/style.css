@@ -45,6 +45,11 @@ a:hover {
     border-radius: 10px; 
     box-shadow: 2px 2px 8px #aaa;
 }
+.post-img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
 .sidebar {
     grid-area: sd;
 }
