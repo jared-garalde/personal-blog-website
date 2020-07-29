@@ -51,6 +51,9 @@ a:hover {
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
+.description{
+    padding: 2em 1.5em;
+} 
 .sidebar {
     grid-area: sd;
 }
