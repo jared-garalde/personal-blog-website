@@ -71,8 +71,8 @@ a:hover {
         grid-auto-rows: minmax(200px, auto);
         grid-template-areas:
             "hd hd hd hd hd hd hd hd hd hd hd hd"
-            "feat feat feat feat feat feat feat feat sd sd sd sd"
-            "main main main main main main main main main main main main"
+            "feat feat feat feat feat feat feat feat feat feat feat feat"
+            "main main main main main main main main sd sd sd sd"
             "ft ft ft ft ft ft ft ft ft ft ft ft";
     }
 }
