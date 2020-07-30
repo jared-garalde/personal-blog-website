@@ -41,6 +41,7 @@ a:hover {
 /*post*/
 .post {
     border-radius: 10px;
+    max-width: 100%;
     box-shadow: 2px 2px 8px #aaa;
 }
 .post-img {
