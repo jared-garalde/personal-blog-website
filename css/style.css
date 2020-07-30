@@ -4,6 +4,10 @@ body {
     font-family: "Heebo", sans-serif;
     color: #333;
     background: #eee;
+    width: 100%;
+    height 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
@@ -74,7 +78,7 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         /*grid-auto-rows: minmax(100px, auto);*/
-        grid-template-rows: 100px 40vh 1fr 100px;  
+        grid-template-rows: 10em minmax(0,1fr) minmax(0,1fr) 20em;  
         grid-template-areas:
             "hd hd hd hd hd hd hd hd hd hd hd hd"
             "feat feat feat feat feat feat feat feat feat feat feat feat"
