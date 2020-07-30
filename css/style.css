@@ -41,7 +41,6 @@ a:hover {
 /*post*/
 .post {
     border-radius: 10px;
-    max-width: 100%;
     box-shadow: 2px 2px 8px #aaa;
 }
 .post-img {
@@ -66,7 +65,7 @@ a:hover {
 /*computer screen grid*/
 @media (min-width: 800px) {
     body {
-        margin: 100px 300px;
+        margin: 100px;
     }
     .container {
         display: grid;
