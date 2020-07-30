@@ -41,6 +41,9 @@ a:hover {
 }
 .feature {
     grid-area: feat;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 .content {
     grid-area: main;
