@@ -48,16 +48,10 @@ a:hover {
 }
 /*post*/
 .post-1 {
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px #aaa;
 }
 .post-2 {
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px #aaa;
 }
 .post-3 {
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px #aaa;
 }
 .post-img {
     max-width: 100%;
@@ -76,6 +70,8 @@ a:hover {
 }
 .box {
     margin: 2em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #aaa;
 }
 /*computer screen grid*/
 @media (min-width: 800px) {
