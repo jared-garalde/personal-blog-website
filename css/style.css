@@ -47,7 +47,15 @@ a:hover {
     grid-area: main;
 }
 /*post*/
-.post {
+.post-1 {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #aaa;
+}
+.post-2 {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #aaa;
+}
+.post-3 {
     border-radius: 10px;
     box-shadow: 2px 2px 8px #aaa;
 }
