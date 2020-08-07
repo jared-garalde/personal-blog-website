@@ -67,6 +67,7 @@ a:hover {
 }
 .box {
     margin: 2em;
+    padding: 1.2em;
     border-radius: 10px;
     box-shadow: 2px 2px 8px #aaa;
 }
