@@ -72,13 +72,19 @@ h3 {
     border-radius: 10px 10px 0px 0px;
 }
 /*post*/
-.post-1 .thumb {
+#img-1 {
     background-image: url(../img/running.jpg);
 }
-.post-2 .thumb {
+#img-2 {
     background-image: url(../img/music.jpg);
 }
-.post-3 .thumb {
+#img-3{
+    background-image: url(../img/programming.jpg);
+}
+#img-4{
+    background-image: url(../img/programming.jpg);
+}
+#img-5{
     background-image: url(../img/programming.jpg);
 }
 /*computer screen grid*/
