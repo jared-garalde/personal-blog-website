@@ -1,5 +1,4 @@
 html {
-    font-family: "Roboto", sans-serif;
     min-width: 0;
     font-family: "Heebo", sans-serif;
     color: #333;
@@ -7,10 +6,38 @@ html {
     padding: 10px 0;
 }
 
-h3 {
-    color: #4f4f4f;
+h1 {
+    font-weight: 700;
+    font-size: 2.4em;
+    margin:.2em;
 }
-
+h2,
+h3 {
+    font-weight: 500;
+    color: #4f4f4f;
+    margin: 0px;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4,
+h5 {
+    font-weight: 400;
+    color: #636363;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    margin: .5em 0px .5em 0px;
+}
+article h2 {
+    transition: .2s ease;
+}
+article h2:hover {
+    color: #0F9EBD;
+}
 /*grid mobile first*/
 .container {
     display: grid;
@@ -71,6 +98,9 @@ h3 {
     height: 50%;
     border-radius: 10px 10px 0px 0px;
 }
+.date {
+    color: #828282;
+}
 /*post*/
 #img-feat {
     background-image: url(../img/running.jpg);
@@ -79,13 +109,13 @@ h3 {
 #img-2 {
     background-image: url(../img/music.jpg);
 }
-#img-3{
+#img-3 {
     background-image: url(../img/programming.jpg);
 }
-#img-4{
+#img-4 {
     background-image: url(../img/programming.jpg);
 }
-#img-5{
+#img-5 {
     background-image: url(../img/programming.jpg);
 }
 /*computer screen grid*/
