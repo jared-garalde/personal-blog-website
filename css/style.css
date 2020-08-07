@@ -48,7 +48,7 @@ a:hover {
 }
 /*post*/
 .post-1 {
-    background: url(/img/running.jpg);
+    background: url(../img/running.jpg) 20% 1% / cover no-repeat;
 }
 .post-2 {
 }
