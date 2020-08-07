@@ -56,12 +56,6 @@ a:hover {
 .post-3 {
     background: url(../img/music.jpg) 20% 1% / cover no-repeat;
 }
-.post-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
-}
 .description {
     padding: 2em 1.5em;
 }
