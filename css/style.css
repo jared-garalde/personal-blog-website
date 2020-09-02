@@ -68,8 +68,11 @@ article h2:hover {
 .sidebar {
     grid-area: sd;
 }
-.footer {
+.foot {
+    display: flex;
     grid-area: ft;
+    justify-content: center;
+    align-items: center;
 }
 .card {
     background: #fff;
