@@ -113,13 +113,13 @@ article h2:hover {
     background-image: url(../img/programming.jpg);
 }
 #img-4 {
-    background-image: url(../img/programming.jpg);
+    background-image: url(../img/burnout.jpg);
 }
 #img-5 {
-    background-image: url(../img/programming.jpg);
+    background-image: url(../img/painting.jpg);
 }
 /*computer screen grid*/
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     body {
         margin: 100px;
     }
