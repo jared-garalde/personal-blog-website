@@ -39,3 +39,41 @@ article h2:hover {
   color: #0f9ebd;
 }
 /* grid */
+.container {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  grid-template-areas:
+    "hd hd hd hd"
+    "info info info info"
+    "main main main main"
+    "ft ft ft ft";
+}
+.header {
+  grid-area: hd;
+}
+.post-header {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  grid-area: main;
+}
+.foot {
+  grid-area: ft;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img-1 {
+  background-image: url(../img/running.jpg);
+  padding-bottom: 50%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+  border-radius: 10px 10px 0px 0px;
+}
