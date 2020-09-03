@@ -32,11 +32,8 @@ p {
   font-family: "Roboto", sans-serif;
   margin: 0.5em 0px 0.5em 0px;
 }
-article h2 {
-  transition: 0.2s ease;
-}
-article h2:hover {
-  color: #0f9ebd;
+time {
+  padding: 0em 0.5em 0em 0.5em;
 }
 /* grid */
 .container {
@@ -62,6 +59,11 @@ article h2:hover {
   grid-area: info;
   display: flex;
   flex-direction: column;
+}
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .post {
   grid-area: main;
