@@ -85,6 +85,7 @@ a {
   grid-area: ft;
   justify-content: center;
   align-items: center;
+  color: #828282;
 }
 .card {
   background: #fff;
