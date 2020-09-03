@@ -38,6 +38,10 @@ article h2 {
 article h2:hover {
   color: #0f9ebd;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /*grid mobile first*/
 .container {
   display: grid;
