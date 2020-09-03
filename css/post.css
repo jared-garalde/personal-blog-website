@@ -52,6 +52,9 @@ article h2:hover {
     "main main main main"
     "ft ft ft ft";
 }
+.box {
+  padding: 1.2em;
+}
 .header {
   grid-area: hd;
 }
@@ -60,8 +63,9 @@ article h2:hover {
   display: flex;
   flex-direction: column;
 }
-.content {
+.post {
   grid-area: main;
+  padding: 0em 2em 0em 2em;
 }
 .foot {
   grid-area: ft;
@@ -69,9 +73,7 @@ article h2:hover {
   justify-content: center;
   align-items: center;
 }
-.box {
-  padding: 1.2em;
-}
+
 #img-1 {
   background-image: url(../img/running.jpg);
   padding-bottom: 50%;
