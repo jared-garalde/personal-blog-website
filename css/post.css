@@ -65,7 +65,7 @@ time {
   justify-content: flex-start;
   align-items: center;
   color: #828282;
-  padding: 0.5em 0em 1.2em 0em;
+  padding: 0em 0em 1.2em 0em;
 }
 .post {
   grid-area: main;
