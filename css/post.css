@@ -96,10 +96,38 @@ time {
   background-position: center 70%;
   height: 50%;
 }
+#img-2 {
+  background-image: url(../img/music.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-3 {
+  background-image: url(../img/programming.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-4 {
+  background-image: url(../img/painting.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
+#img-5 {
+  background-image: url(../img/burnout.jpg);
+  padding-bottom: 70%;
+  background-size: cover;
+  background-position: center 70%;
+  height: 50%;
+}
 /* media query */
 @media (min-width: 800px) {
   .box {
-    margin: 0px 150px 0px 150px;
+    margin: 0px 150px 0px 100px;
   }
   .container {
     display: grid;
@@ -111,7 +139,11 @@ time {
       "main main main main main main main main main main main main"
       "ft ft ft ft ft ft ft ft ft ft ft ft";
   }
-  #img-1 {
+  #img-1,
+  #img-2,
+  #img-3,
+  #img-4,
+  #img-5 {
     padding-bottom: 38%;
   }
 }
