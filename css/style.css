@@ -19,6 +19,7 @@ h3 {
 }
 h2 {
   font-size: 1.8em;
+  transition: 0.2s ease;
 }
 h3 {
   font-size: 1.4em;
@@ -32,15 +33,13 @@ p {
   font-family: "Roboto", sans-serif;
   margin: 0.5em 0px 0.5em 0px;
 }
-article h2 {
-  transition: 0.2s ease;
-}
-article h2:hover {
-  color: #0f9ebd;
-}
 a {
+  transition: 0.2s ease;
   text-decoration: none;
   color: inherit;
+}
+a h2:hover {
+  color: #0f9ebd;
 }
 /*grid mobile first*/
 .container {
@@ -145,7 +144,7 @@ a {
 /*computer screen grid*/
 @media (min-width: 900px) {
   body {
-    margin: 100px;
+    margin: 20px 100px 0px 100px;
   }
   .container {
     display: grid;
