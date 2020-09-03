@@ -111,14 +111,14 @@ time {
   height: 50%;
 }
 #img-4 {
-  background-image: url(../img/painting.jpg);
+  background-image: url(../img/burnout.jpg);
   padding-bottom: 70%;
   background-size: cover;
   background-position: center 70%;
   height: 50%;
 }
 #img-5 {
-  background-image: url(../img/burnout.jpg);
+  background-image: url(../img/painting.jpg);
   padding-bottom: 70%;
   background-size: cover;
   background-position: center 70%;
@@ -145,5 +145,18 @@ time {
   #img-4,
   #img-5 {
     padding-bottom: 38%;
+  }
+}
+@media (min-width: 1200px) {
+  .box {
+    margin: 0px 350px 0px 350px;
+  }
+  #img-1,
+  #img-2,
+  #img-3,
+  #img-4,
+  #img-5 {
+    padding-bottom: 30%;
+    background-position: center 68%;
   }
 }
