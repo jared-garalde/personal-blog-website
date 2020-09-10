@@ -27,6 +27,8 @@ h3 {
 h4,
 h5 {
   font-weight: 400;
+  font-size: 1.2em;
+  line-height: 0.9px;
   color: #636363;
 }
 p {
@@ -41,6 +43,7 @@ a {
 a h2:hover {
   color: #0f9ebd;
 }
+
 /*grid mobile first*/
 .container {
   display: grid;
@@ -131,6 +134,15 @@ a h2:hover {
   margin-bottom: 1.2em;
   border-radius: 10px;
   box-shadow: 2px 2px 8px #aaa;
+}
+.btn {
+  border-radius: 10px;
+  border: 0;
+  padding: 0 20px;
+  font-size: 1em;
+  margin: 8px 0px;
+  color: #fff;
+  background-color: #0f9ebd;
 }
 /*post*/
 #img-feat {
