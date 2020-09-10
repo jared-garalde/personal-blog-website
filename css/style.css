@@ -124,6 +124,14 @@ a h2:hover {
 .date {
   color: #828282;
 }
+.avatar {
+  background-size: cover;
+  padding-bottom: 100%;
+  height: 100%;
+  margin-bottom: 1.2em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #aaa;
+}
 /*post*/
 #img-feat {
   background-image: url(../img/running.jpg);
@@ -140,6 +148,9 @@ a h2:hover {
 }
 #img-5 {
   background-image: url(../img/painting.jpg);
+}
+#jared {
+  background-image: url(../img/jared-sketch-large.PNG);
 }
 /*computer screen grid*/
 @media (min-width: 900px) {

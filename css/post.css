@@ -87,9 +87,7 @@ time {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #828282;
 }
-
 #img-1 {
   background-image: url(../img/running.jpg);
   padding-bottom: 70%;
